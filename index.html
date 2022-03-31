@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./clockpr.css">
+   
+</head>
+<body>
+    <div class="logo"></div>
+    <div class="timer1" > </div>
+        <div class="timer2" > </div>    
+    <div class="timer" > 
+        <div class="time"> TIME </div>
+        <div id="hours"> 
+        <div id="hourtext">04 <br>hours </div>
+        </div> 
+        <div class="time1">  : </div> 
+        <div id="mins">
+         <div class="mintext" >00 <br> mins </div>
+        </div>
+        <div class="time2">  : </div>
+        <div id="secs">
+            <div class="sectext"> 01 <br> secs </div>
+        </div>
+        <div id="am"><div class="amtxt"> AM</div>
+    </div>
+    </div>
+</div>
+    <div class="container1">
+    <div class="box1">
+        <span class="material-icons">light_mode</span>
+<div class="v1"></div>
+<!-- <a href="/.project4.html" alt=""> -->
+<form action="" id="form1">
+    <label for="time"> Set wake up time</label>
+    <select name="time"  id="txtbox1"> 
+        <option value="" class="dropdown-text">Select Your Time</option>
+        <option value="0" class="dropdown-text">12 AM - 01 AM</option>
+        <option value="1" class="dropdown-text">01 AM - 02 AM</option>
+        <option value="2" class="dropdown-text">02 AM - 03 AM</option>
+        <option value="3" class="dropdown-text">03 AM - 04 AM</option>
+        <option value="4" class="dropdown-text">04 AM - 05 AM</option>
+        <option value="5" class="dropdown-text">05 AM - 06 AM</option>
+        <option value="6" class="dropdown-text">06 AM - 07 AM</option>
+        <option value="7" class="dropdown-text">07 AM - 08 AM</option>
+        <option value="8" class="dropdown-text">08 AM - 09 AM</option>
+        <option value="9" class="dropdown-text">09 AM - 10 AM</option>
+        <option value="10" class="dropdown-text">10 AM - 11 AM</option>
+        <option value="11" class="dropdown-text">11 AM - 12 PM</option>
+        <option value="12" class="dropdown-text">12 PM - 01 PM</option>
+        <option value="13" class="dropdown-text">01 PM - 02 PM</option>
+        <option value="14" class="dropdown-text">02 PM - 03 PM</option>
+        <option value="15" class="dropdown-text">03 PM - 04 PM</option>
+        <option value="16" class="dropdown-text">04 PM - 05 PM</option>
+        <option value="17" class="dropdown-text">05 PM - 06 PM</option>
+        <option value="18" class="dropdown-text">06 PM - 07 PM</option>
+        <option value="19" class="dropdown-text">07 PM - 08 PM</option>
+        <option value="20" class="dropdown-text">08 PM - 09 PM</option>
+        <option value="21" class="dropdown-text">09 PM - 10 PM</option>
+        <option value="22" class="dropdown-text">10 PM - 11 PM</option>
+        <option value="23" class="dropdown-text">11 PM - 12 AM</option>
+        
+    </select>
+</form>
+        <span class="material-icons lunch">local_dining</span>
+        <div class="v2"></div>
+        <form action="" id="form2">
+            <label for="time"> Set lunch time</label>
+            <select name="time" id="txtbox2">
+                <option value="" class="dropdown-text">Select Your Time</option>
+                <option value="0" class="dropdown-text">12 AM - 01 AM</option>
+                <option value="1" class="dropdown-text">01 AM - 02 AM</option>
+                <option value="2" class="dropdown-text">02 AM - 03 AM</option>
+                <option value="3" class="dropdown-text">03 AM - 04 AM</option>
+                <option value="4" class="dropdown-text">04 AM - 05 AM</option>
+                <option value="5" class="dropdown-text">05 AM - 06 AM</option>
+                <option value="6" class="dropdown-text">06 AM - 07 AM</option>
+                <option value="7" class="dropdown-text">07 AM - 08 AM</option>
+                <option value="8" class="dropdown-text">08 AM - 09 AM</option>
+                <option value="9" class="dropdown-text">09 AM - 10 AM</option>
+                <option value="10" class="dropdown-text">10 AM - 11 AM</option>
+                <option value="11" class="dropdown-text">11 AM - 12 PM</option>
+                <option value="12" class="dropdown-text">12 PM - 01 PM</option>
+                <option value="13" class="dropdown-text">01 PM - 02 PM</option>
+                <option value="14" class="dropdown-text">02 PM - 03 PM</option>
+                <option value="15" class="dropdown-text">03 PM - 04 PM</option>
+                <option value="16" class="dropdown-text">04 PM - 05 PM</option>
+                <option value="17" class="dropdown-text">05 PM - 06 PM</option>
+                <option value="18" class="dropdown-text">06 PM - 07 PM</option>
+                <option value="19" class="dropdown-text">07 PM - 08 PM</option>
+                <option value="20" class="dropdown-text">08 PM - 09 PM</option>
+                <option value="21" class="dropdown-text">09 PM - 10 PM</option>
+                <option value="22" class="dropdown-text">10 PM - 11 PM</option>
+                <option value="23" class="dropdown-text">11 PM - 12 AM</option>
+
+                
+            </select>
+        </form>
+      <i class="far fa-snooze"></i>
+      <div class="v3"></div>
+      <form action="" id="form3">
+        <label for="time"> Set nap time</label>
+        <select nPMe="time" class="txtbox3"  id="txtbox3">
+
+            <option value="" class="dropdown-text">Select Your Time</option>
+            <option value="0" class="dropdown-text">12 AM - 01 AM</option>
+            <option value="1" class="dropdown-text">01 AM - 02 AM</option>
+            <option value="2" class="dropdown-text">02 AM - 03 AM</option>
+            <option value="3" class="dropdown-text">03 AM - 04 AM</option>
+            <option value="4" class="dropdown-text">04 AM - 05 AM</option>
+            <option value="5" class="dropdown-text">05 AM - 06 AM</option>
+            <option value="6" class="dropdown-text">06 AM - 07 AM</option>
+            <option value="7" class="dropdown-text">07 AM - 08 AM</option>
+            <option value="8" class="dropdown-text">08 AM - 09 AM</option>
+            <option value="9" class="dropdown-text">09 AM - 10 AM</option>
+            <option value="10" class="dropdown-text">10 AM - 11 AM</option>
+            <option value="11" class="dropdown-text">11 AM - 12 PM</option>
+            <option value="12" class="dropdown-text">12 PM - 01 PM</option>
+            <option value="13" class="dropdown-text">01 PM - 02 PM</option>
+            <option value="14" class="dropdown-text">02 PM - 03 PM</option>
+            <option value="15" class="dropdown-text">03 PM - 04 PM</option>
+            <option value="16" class="dropdown-text">04 PM - 05 PM</option>
+            <option value="17" class="dropdown-text">05 PM - 06 PM</option>
+            <option value="18" class="dropdown-text">06 PM - 07 PM</option>
+            <option value="19" class="dropdown-text">07 PM - 08 PM</option>
+            <option value="20" class="dropdown-text">08 PM - 09 PM</option>
+            <option value="21" class="dropdown-text">09 PM - 10 PM</option>
+            <option value="22" class="dropdown-text">10 PM - 11 PM</option>
+            <option value="23" class="dropdown-text">11 PM - 12 AM</option>
+
+        </select>
+    </form>
+    <i class="fas fa-snooze"></i>
+    <form action="" id="form4">
+        <label for="time"> Set night time</label>
+        <select nPMe="time" class="txtbox4" id="txtbox4">
+
+
+            <option value="" class="dropdown-text">Select Your Time</option>
+            <option value="0" class="dropdown-text">12 AM - 01 AM</option>
+            <option value="1" class="dropdown-text">01 AM - 02 AM</option>
+            <option value="2" class="dropdown-text">02 AM - 03 AM</option>
+            <option value="3" class="dropdown-text">03 AM - 04 AM</option>
+            <option value="4" class="dropdown-text">04 AM - 05 AM</option>
+            <option value="5" class="dropdown-text">05 AM - 06 AM</option>
+            <option value="6" class="dropdown-text">06 AM - 07 AM</option>
+            <option value="7" class="dropdown-text">07 AM - 08 AM</option>
+            <option value="8" class="dropdown-text">08 AM - 09 AM</option>
+            <option value="9" class="dropdown-text">09 AM - 10 AM</option>
+            <option value="10" class="dropdown-text">10 AM - 11 AM</option>
+            <option value="11" class="dropdown-text">11 AM - 12 PM</option>
+            <option value="12" class="dropdown-text">12 PM - 01 PM</option>
+            <option value="13" class="dropdown-text">01 PM - 02 PM</option>
+            <option value="14" class="dropdown-text">02 PM - 03 PM</option>
+            <option value="15" class="dropdown-text">03 PM - 04 PM</option>
+            <option value="16" class="dropdown-text">04 PM - 05 PM</option>
+            <option value="17" class="dropdown-text">05 PM - 06 PM</option>
+            <option value="18" class="dropdown-text">06 PM - 07 PM</option>
+            <option value="19" class="dropdown-text">07 PM - 08 PM</option>
+            <option value="20" class="dropdown-text">08 PM - 09 PM</option>
+            <option value="21" class="dropdown-text">09 PM - 10 PM</option>
+            <option value="22" class="dropdown-text">10 PM - 11 PM</option>
+            <option value="23" class="dropdown-text">11 PM - 12 AM</option>
+
+
+        </select>
+    </form>
+    </div>
+    <div class="box">
+        <div class="boxtxt" id="boxtext"> HELLO !!</div>
+    </div>
+    <div class="box2">     
+<div id="b2img">
+</div>
+    </div>
+</div>
+<div class="msg">
+    <div id="msgtext">SELECT TIME</div>
+</div>
+        <div class="alarm"  onclick="setDisplay()">
+                <button class="alarmtext">Party Time  
+
+                </button>
+        </div>
+                <div class="description">
+                    <div> <br>
+                        <div id="descriptiontext1">
+                            Wake Up Time : Select Your Time
+                        </div>
+                        <div id="descriptiontext2">
+                            Lunch Time : Select Your Time
+                        </div>
+                        <div id="descriptiontext3">
+                            Nap Time : Select Your Time
+                        </div>
+                        <div id="descriptiontext4">
+                            Night Time : Select Your Time
+                        </div>
+                                    
+                    </div>
+                    </div>
+  
+  </div>
+  <script>
+    function clickme(){
+    var time=new Date();
+    var hours=time.getHours();
+    var mins=time.getMinutes();
+    var secs=time.getSeconds();
+
+     var am=(hours<12) ? "AM" : "PM";
+    hours = (hours >12)? hours-12 :hours;
+    hours = (hours <10)?"0"+hours:hours;
+    mins = (mins <10)?"0"+mins:mins;
+    secs = (secs <10)?"0"+secs:secs;
+
+    document.getElementById("hours").innerHTML = hours+"<br> hrs";
+    document.getElementById("mins").innerHTML = mins+"<br> min";
+    document.getElementById("secs").innerHTML = secs+"<br> sec";
+    document.getElementById("am").innerHTML = am;
+
+    document.getElementById("hours").style.fontSize="30px";
+    document.getElementById("mins").style.fontSize="30px";
+    document.getElementById("secs").style.fontSize="30px";
+    document.getElementById("am").style.fontSize="35px";
+}
+setInterval(clickme,1000);
+
+
+
+
+function setDisplay(){
+
+
+var wakeup_time = document.getElementById('txtbox1').value;
+var lunch_time = document.getElementById("txtbox2").value;
+var nap_time = document.getElementById("txtbox3").value;
+var night_time = document.getElementById("txtbox4").value;
+var current_hours = new Date().getHours();
+
+if(wakeup_time == current_hours){
+
+    document.getElementById("b2img").style.backgroundImage="url(Wakeup.jpg)"
+    document.getElementById("boxtext").innerText="Grab Some Healthy Breakfast!!!";
+    document.getElementById("msgtext").innerHTML="GOOD MORNING!! WAKE UP !!";
+}
+
+if(lunch_time == current_hours){
+    document.getElementById("b2img").style.backgroundImage="url(lunch14.jpg)"
+    document.getElementById("boxtext").innerText="Let's Have Some Lunch !!";
+    document.getElementById("msgtext").innerHTML="Good Afternoon!! Take some sleep";
+}
+
+if(nap_time == current_hours){
+    document.getElementById("b2img").style.backgroundImage="url(evening12.jpg)"
+    document.getElementById("boxtext").innerText="STOP YAWNING,GET SOME TEA...  ITS JUST EVENING !!";
+    document.getElementById("msgtext").innerHTML="Good Evening!!";
+}
+
+
+if(night_time == current_hours){
+    document.getElementById("b2img").style.backgroundImage="url(night12.jpg)"
+    document.getElementById("boxtext").innerText="CLOSE YOUR EYES AND GO TO SLEEP";
+    document.getElementById("msgtext").innerHTML="Good Night!!";
+}
+
+
+var invalue1 = document.getElementById("txtbox1");
+var value = invalue1.options[invalue1.selectedIndex].text;
+document.getElementById("descriptiontext1").innerHTML="Wake Up Time : " + value;
+
+var invalue2 = document.getElementById("txtbox2");
+var value = invalue2.options[invalue2.selectedIndex].text;
+document.getElementById("descriptiontext2").innerHTML="Lunch Time : " + value;
+
+
+var invalue3 = document.getElementById("txtbox3");
+var value = invalue3.options[invalue3.selectedIndex].text;
+document.getElementById("descriptiontext3").innerHTML="Nap Time : " + value;
+
+
+var invalue4 = document.getElementById("txtbox4");
+var value = invalue4.options[invalue4.selectedIndex].text;
+document.getElementById("descriptiontext4").innerHTML="Night Time : " + value;
+}
+
+  </script>
+  
+</body>
+</html>
